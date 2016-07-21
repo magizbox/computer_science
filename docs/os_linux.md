@@ -1,0 +1,1 @@
+Please visit [linux tutorial page][/linux]

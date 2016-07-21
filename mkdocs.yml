@@ -11,6 +11,11 @@ pages:
 - "OOP":
   - "Introduction": 'oop.md'
   - "UML": 'oop_uml.md'
-- "Operating System": 'os.md'
+- "Operating System":
+  - "Introduction": 'os.md'
+  - "Linux": 'os_linux.md'
+  - "CentOS": 'os_centos.md'
+  - "Ubuntu": 'os_ubuntu.md'
+  - "Windows": 'os_windows.md'
 markdown_extensions:
     - footnotes
