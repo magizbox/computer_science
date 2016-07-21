@@ -1,7 +1,7 @@
 site_name: ComputerScience
 pages:
 - "Home": 'index.md'
-- "Data Structure & ALgorithm": 'data_algorithm.md'
+- "D&A": 'data_algorithm.md'
 - "Database":
   - "Introduction": "database.md"
   - "SQL": "db_sql.md"
@@ -11,11 +11,15 @@ pages:
 - "OOP":
   - "Introduction": 'oop.md'
   - "UML": 'oop_uml.md'
-- "Operating System":
+  - "Design Patterns": 'oop_designpattern.md'
+- "OS":
   - "Introduction": 'os.md'
   - "Linux": 'os_linux.md'
   - "CentOS": 'os_centos.md'
   - "Ubuntu": 'os_ubuntu.md'
   - "Windows": 'os_windows.md'
+- "UX/UI": 'ux.md'
+- "SA": 'software_architecture.md'
+- "Licenses": "licenses.md"
 markdown_extensions:
     - footnotes

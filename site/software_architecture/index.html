@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>Introduction - ComputerScience</title>
+	<title>SA - ComputerScience</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
@@ -131,13 +131,13 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">OS <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li class="active">
-    <a href="./">Introduction</a>
+<li >
+    <a href="../os/">Introduction</a>
 </li>
 
                         
@@ -176,8 +176,8 @@
                 
                 
                 
-                    <li >
-                        <a href="../software_architecture/">SA</a>
+                    <li class="active">
+                        <a href="./">SA</a>
                     </li>
                 
                 
@@ -198,12 +198,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../oop_designpattern/">
+                        <a rel="next" href="../ux/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../os_linux/">
+                        <a rel="prev" href="../licenses/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -219,27 +219,201 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#operating-system">Operating System</a></li>
+        <li class="main active"><a href="#service-oriented-architecture">Service-Oriented Architecture</a></li>
+        
+            <li><a href="#generally-accepted-view-1">Generally accepted view 1</a></li>
+        
+    
+        <li class="main "><a href="#microservices">Microservices</a></li>
+        
+            <li><a href="#properties-2">Properties 2</a></li>
+        
+            <li><a href="#monolith-vs-microservice">Monolith vs Microservice</a></li>
+        
+            <li><a href="#benefits-4">Benefits 4</a></li>
+        
+    
+        <li class="main "><a href="#web-service">Web Service</a></li>
+        
+    
+        <li class="main "><a href="#restful-api">RESTful API</a></li>
+        
+            <li><a href="#rest-client">REST Client</a></li>
+        
+            <li><a href="#api-document-and-client-generator">API Document and Client Generator</a></li>
+        
+            <li><a href="#api-client">API Client</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="operating-system">Operating System</h1>
+<h1 id="service-oriented-architecture">Service-Oriented Architecture</h1>
+<p>A service-oriented architecture (SOA) is an architectural pattern in computer software design in which application components provide services to other components via a communications protocol, typically over a network. The principles of service-orientation are independent of any vendor, product or technology. <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></p>
+<p><img alt="" src="http://www.logimethods.com/images/diagram-soa.gif" /></p>
+<h2 id="generally-accepted-view-1">Generally accepted view <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></h2>
+<ul>
+<li>Boundaries are explicit</li>
+<li>Services are autonomous</li>
+<li>Services share schema and contract, not class</li>
+<li>Service compatibility is based on policy</li>
+</ul>
+<h1 id="microservices">Microservices</h1>
 <blockquote>
-<p>An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs. The operating system is a component of the system software in a computer system. Application programs usually require an operating system to function.</p>
+<p>In computing, microservices is a software architecture style in which complex applications are composed of small, independent processes communicating with each other using language-agnostic APIs. These services are small building blocks, highly decoupled and focussed on doing a small task, facilitating a modular approach to system-building. One of concepts which integrates microservices as a software architecture style is dew computing. <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
 </blockquote>
-<p>Common Features</p>
+<p><img alt="" src="http://image.slidesharecdn.com/microservicescfsummit-140611115438-phpapp01/95/cloud-foundry-and-microservices-a-mutualistic-symbiotic-relationship-17-638.jpg?cb=1402487864" /></p>
+<h2 id="properties-2">Properties <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></h2>
+<ul>
+<li>Each running in its own process</li>
+<li>Communicating with lightweight mechanisms, often an <strong>HTTP resource API</strong></li>
+<li>Build around <strong>business capabilities</strong></li>
+<li><strong>Independently deployable</strong></li>
+<li><strong>fully automated</strong> deployment</li>
+<li>Maybe in a <strong>different programming language</strong> and use <strong>different data storage</strong> technologies</li>
+</ul>
+<h2 id="monolith-vs-microservice">Monolith vs Microservice</h2>
+<table>
+<tr>
+<th>Monolith</th>
+<th>Microservice</th>
+</tr>
+<tr>
+<td>Simplicity</td>
+<td>Partial Deployment</td>
+</tr>
+<tr>
+<td>Consistency</td>
+<td>Availability</td>
+</tr>
+<tr>
+<td>Inter-module refactoring</td>
+<td>Preserve Modularity</td>
+</tr>
+<tr>
+<td></td>
+<td>Multiple Platforms</td>
+</tr>
+</table>
+
+<h2 id="benefits-4">Benefits <sup id="fnref:4"><a class="footnote-ref" href="#fn:4" rel="footnote">4</a></sup></h2>
+<ul>
+<li>Their small size enables developers to be most productive.</li>
+<li>It's easy to comprehend and test each service.</li>
+<li>You can correctly handle failure of any dependent service.</li>
+<li>They reduce impact of correlated failures.</li>
+</ul>
+<h1 id="web-service">Web Service</h1>
+<h1 id="restful-api">RESTful API</h1>
+<p><img alt="" src="http://maxoffsky.com/word/wp-content/uploads/2012/11/RESTful-API-design-1014x457.jpg" /></p>
+<h3 id="rest-client">REST Client</h3>
+<p><a href="https://chrome.google.com/webstore/detail/sense-beta/lhjgkmllcaadmopgmanpapmpjgmfcfig?hl=en">Sense (Beta)</a></p>
+<p>A JSON aware developer console to ElasticSearch.</p>
+<h3 id="api-document-and-client-generator">API Document and Client Generator</h3>
+<p>http://swagger.io/swagger-editor/</p>
+<h3 id="api-client">API Client</h3>
+<p><strong>CRUD Pet</strong></p>
+<table>
+<tbody>
+<tr>
+<td style="text-align: center;" colspan="4"><strong>API&nbsp;</strong></td>
+<td style="text-align: center;"><strong>&nbsp;Client</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Method</strong></td>
+<td style="text-align: center;"><strong>URL</strong></td>
+<td style="text-align: center;"><strong>Body</strong></td>
+<td style="text-align: center;"><strong>Return Body</strong></td>
+<td style="text-align: center;"><strong>Method</strong></td>
+</tr>
+<tr>
+<td>&nbsp;GET</td>
+<td>/pets</td>
+<td>&nbsp;</td>
+<td>[Pet]</td>
+<td>PetApi.list()</td>
+</tr>
+<tr>
+<td>&nbsp;POST</td>
+<td>/pets/</td>
+<td>Pet</td>
+<td>Pet</td>
+<td>PetApi.create(pet)</td>
+</tr>
+<tr>
+<td>&nbsp;GET</td>
+<td>/pets/pet_id</td>
+<td>&nbsp;</td>
+<td>Pet</td>
+<td>PetApi.get(pet_id)</td>
+</tr>
+<tr>
+<td>&nbsp;PUT</td>
+<td>&nbsp;/pets/pet_id</td>
+<td>Pet</td>
+<td>Pet</td>
+<td>PetApi.update(pet_id, pet)</td>
+</tr>
+<tr>
+<td>&nbsp;DELETE</td>
+<td>/pets/pet_id</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>PetApi.delete(pet_id)</td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><strong>CRUD Store</strong></p>
+<table>
+<tbody>
+<tr>
+<td>GET /stores</td>
+<td>StoreApi.list()</td>
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Relationships</strong></p>
+<p>Many to many</p>
+<table>
+<tbody>
+<tr>
+<td>GET /stores/sotre_id/pets</td>
+<td>StoreApi.get_pets(store_id)</td>
+</tr>
+</tbody>
+
+### Example
+
+[https://api.facebook.com/method/links.getStats?urls=%%URL%%&format=json](https://api.facebook.com/method/links.getStats?urls=%%URL%%&format=json)
+
+
+
+<div class="footnote">
+<hr />
 <ol>
-<li>IO: File Operations</li>
-<li>Security: User Environments</li>
-<li>Network Operations</li>
-<li>Process Manager</li>
-<li>System Information</li>
-<li>Text Processing &amp; Pipeline</li>
-<li>Device Manager</li>
-</ol></div>
+<li id="fn:1">
+<p><a href="https://en.wikipedia.org/wiki/Microservices">Microservices</a>&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="http://www.slideshare.net/whyme/scalapeno-2014">Slide 11/42, Micro-servies</a>&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://youtu.be/wgdBVIX9ifA">Martin Fowler, Microservices, youtube</a>&#160;<a class="footnote-backref" href="#fnref:3" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="http://www.ibm.com/developerworks/cloud/library/cl-bluemix-microservices-in-action-part-1-trs/">Rick E. Osowski, Microservices in action, Part 1: Introduction to microservices, IBM developerworks</a>&#160;<a class="footnote-backref" href="#fnref:4" rev="footnote" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
             
         </div>
 

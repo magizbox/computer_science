@@ -28,7 +28,7 @@
         {
             "location": "/data_algorithm/", 
             "text": "Data Structures and Algorithms\n\n\nData Structures \n1\n\n\n\n\nIn computer science, a data structure is a particular way of organizing data in a computer so that it can be used efficiently. Data structures can implement one or more particular abstract data types (ADT), which are the means of specifying the contract of operations and their complexity. In comparison, a data structure is a concrete implementation of the contract provided by an ADT.\n\n\nAlgorithms \n2\n\n\n\n\nIn mathematics and computer science, an algorithm is a self-contained step-by-step set of operations to be performed. Algorithms exist that perform calculation, data processing, and automated reasoning.\n\n\nAn algorithm is an effective method that can be expressed within a finite amount of space and time and in a well-defined formal language for calculating a function. Starting from an initial state and initial input (perhaps empty), the instructions describe a computation that, when executed, proceeds through a finite number of well-defined successive states, eventually producing \"output\" and terminating at a final ending state. The transition from one state to the next is not necessarily deterministic; some algorithms, known as randomized algorithms, incorporate random input.\n\n\nContent\n\n\n[code]\ndata structures and algorithms/\n\u251c\u2500\u2500 1. basic data structures\n\u2502   \u251c\u2500\u2500 stacks and queues\n\u2502   \u2514\u2500\u2500 linked list\n\u251c\u2500\u2500 2. basic algorithms\n\u251c\u2500\u2500 3. graph algorithms\n\u2514   \u2514\u2500\u2500 represent graph\n[/code]\n\n\nBooks \n3\n\n\n\n\nCLRS - Introduction to Algorithms, 3rd Edition - The classic comprehensive text book on algorithms. A must read at least once in programmer's career.\n\n\n\n\nD\nA: Linked List\n\n\nLinked List \n1\n\n\nIn computer science, a linked list is a data structure consisting of a group of nodes which together represent a sequence. Under the simplest form, each node is composed of data and a reference (in other words, a link) to the next node in the sequence; more complex variants add additional links. This structure allows for efficient insertion or removal of elements from any position in the sequence.\n\n\nSingle Linked List\n\n\n\n\nDouble Linked List\n\n\n\n\nExercise: Book Manager\n\n\nImplement linked list to do a simple book manager program\n\n\n\n\nadd new book\n\n\nsearch book by name\n\n\nshow all book\n\n\n\n\nD\nA: Stacks and Queues\n\n\nD\nA: Graph\n\n\nData Structure: Graph\n\n\n\n\nAlgorithms\n\n\n\n\nPagerank\n\n\n\n\nExercies\n\n\n\n\n\n\n15 Project Euler\n\n\n\n\n\n\nSources\n\n\n\n\n\n\n\n\n\n\nLinked list\n\n\n\n\n\n\nAlgorithm\n\n\n\n\n\n\nWhat is the best book for algorithms and data structures?", 
-            "title": "Data Structure & ALgorithm"
+            "title": "D&A"
         }, 
         {
             "location": "/data_algorithm/#data-structures-and-algorithms", 
@@ -386,6 +386,51 @@
             "title": "Activity Diagram"
         }, 
         {
+            "location": "/oop_designpattern/", 
+            "text": "Design Patterns\n\n\n\n\nCreational design patterns\n\n\n\nThese design patterns are all about class instantiation. This pattern can be further divided into class-creation patterns and object-creational patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStructural design patterns\n\n\n\nThese design patterns are all about Class and Object composition. Structural class-creation patterns use inheritance to compose interfaces. Structural object-patterns define ways to compose objects to obtain new functionality.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBehavioral design patterns\n\n\n\nThese design patterns are all about Class's objects communication. Behavioral patterns are those patterns that are most specifically concerned with communication between objects.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesign Pattern Q\nA\n\n\n\n\n\nExamples of GoF Design Patterns in Java's core libraries\n\n\nDependency Injection vs Factory Pattern\n\n\nWhat is Inversion of Control?\n\n\nWhat is so bad about singletons?\n\n\nWhat is the basic difference between Factory and Abstract Factory Patterns?\n\n\nWhen would you use the Builder Pattern?\n\n\nWhat is the difference between Builder Design pattern and Factory Design pattern?\n\n\nHow do the Proxy, Decorator, Adapter, and Bridge Patterns differ?\n\n\n\n\n\nAbstract Factory Pattern\n\n\n\n  \nCreates an instance of several families of classes\n\n\n\n\n\nIntuitive \n1\n\n\n\n\n\nVolkswagen Transparent Factory in Dresden\n\n\n\nWhat is it? \n2\n\n\n\nThe abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.\n\n\nIn normal usage, the client software creates a concrete implementation of the abstract factory and then uses the generic interface of the factory to create the concrete objects that are part of the theme. The client doesn't know (or care) which concrete objects it gets from each of these internal factories, since it uses only the generic interfaces of their products.\n\n\nThis pattern separates the details of implementation of a set of objects from their general usage and relies on object composition, as object creation is implemented in methods exposed in the factory interface.\n\n\nDesign\n\n\n\n\n\nExample Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe most interesting factories in the world\n\n\n\n\n\n\n\nAbstract factory pattern\n\n\n\n\n\n\n\n\n\n\nObserver Pattern\n\n\nIntuitive\n\n\n\n\n\n\n\n\nDefinition \n1\n\n\n\n  The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems. The Observer pattern is also a key part in the familiar model\u2013view\u2013controller (MVC) architectural pattern. The observer pattern is implemented in numerous programming libraries and systems, including almost all GUI toolkits.\n\n\n\n\nStructure \n2\n\n\n\n\nSubject\n\n\n\n\nknows its observers. Any number of Observer objects may observe a subject.\n\n\nprovides an interface for attaching and detaching Observer objects\n\n\n\n\n\nObserver\n\n\n\n\ndefines an updating interface for objects that should be notified of changes in a subject.\n\n\n\n\n\nConcreteSubject\n\n\n\n\nstores state of interest to ConcreteObserver objects.\n\n\nsends a notification to its observers when its state changes.\n\n\n\n\n\nConcreteObserver\n\n\n\n\nmaintains a reference to a ConcreteSubject object.\n\n\nstores state that should stay consistent with the subject's.\n\n\nimplements the Observer updating interface to keep its state consistent with the subject's.\n\n\n\n\n\nExamples\n\n\n\nExample 1: Blog Manager Application\n\n\nIn this application, each user is an \nObserver\n, each blog is a \nSubject\n. When a blog post a new article (state change), user get an update. When users get update, they update their articles.\n\n\n[code lang=\"java\"]\nBlog sportBlog = new Blog(\"SPORT\");\nUser user1 = new User(\"Fan1\");\nUser user2 = new User(\"Fan2\");\n\n\nsportBlog.attach(user1);\nsportBlog.attach(user2);\n\n\nsportBlog.post(new Article(\"football\"));\nsportBlog.post(new Article(\"swimming\"));\nuser1.getArticles();\nuser2.getArticles();\n\n\nsportBlog.detach(user1);`\n[/code]\n\n\nReal Implementations\n\n\n\nBroadcast Receiver\n \n3\n \n4\n on Android\n\n\nMore Articles\n\n\n\n\nhttp://javapapers.com/design-patterns/observer-design-pattern/\n\n\n\n\nComparison\n\n\nObserver/Observable pattern vs Publisher/Subscriber pattern \n5\n\n\n\n\nObserver/Observable\n pattern is mostly implemented in a \nsynchronous\n way, i.e. the observable calls the appropriate method of all its observers when some event occurs. The \nPublisher/Subscriber\n pattern is mostly implemented in an \nasynchronous\n way (using message queue).\n\n\nIn the \nObserver/Observable\n pattern, \nthe observers are aware of the observable\n. Whereas, in \nPublisher/Subscriber\n, publishers and subscribers \ndon't need to know each other\n. They simply communicate with the help of message queues.\n\n\n\n\n\n\n\n\n\n\n\n\nObserver pattern\n\n\n\n\n\n\nBroadcast Receiver\n\n\n\n\n\n\nDesign Patterns: Elements of Reusable Object-Oriented Software\n\n\n\n\n\n\nWhich design patterns are used on Android?\n\n\n\n\n\n\nstackoverflow, Difference between Observer, Pub/Sub, and Data Binding", 
+            "title": "Design Patterns"
+        }, 
+        {
+            "location": "/oop_designpattern/#design-patterns", 
+            "text": "", 
+            "title": "Design Patterns"
+        }, 
+        {
+            "location": "/oop_designpattern/#abstract-factory-pattern", 
+            "text": "Creates an instance of several families of classes", 
+            "title": "Abstract Factory Pattern"
+        }, 
+        {
+            "location": "/oop_designpattern/#observer-pattern", 
+            "text": "", 
+            "title": "Observer Pattern"
+        }, 
+        {
+            "location": "/oop_designpattern/#definition-1", 
+            "text": "The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems. The Observer pattern is also a key part in the familiar model\u2013view\u2013controller (MVC) architectural pattern. The observer pattern is implemented in numerous programming libraries and systems, including almost all GUI toolkits.", 
+            "title": "Definition 1"
+        }, 
+        {
+            "location": "/oop_designpattern/#structure-2", 
+            "text": "Subject   knows its observers. Any number of Observer objects may observe a subject.  provides an interface for attaching and detaching Observer objects   Observer   defines an updating interface for objects that should be notified of changes in a subject.   ConcreteSubject   stores state of interest to ConcreteObserver objects.  sends a notification to its observers when its state changes.   ConcreteObserver   maintains a reference to a ConcreteSubject object.  stores state that should stay consistent with the subject's.  implements the Observer updating interface to keep its state consistent with the subject's.", 
+            "title": "Structure 2"
+        }, 
+        {
+            "location": "/oop_designpattern/#more-articles", 
+            "text": "http://javapapers.com/design-patterns/observer-design-pattern/", 
+            "title": "More Articles"
+        }, 
+        {
+            "location": "/oop_designpattern/#comparison", 
+            "text": "", 
+            "title": "Comparison"
+        }, 
+        {
+            "location": "/oop_designpattern/#observerobservable-pattern-vs-publishersubscriber-pattern-5", 
+            "text": "Observer/Observable  pattern is mostly implemented in a  synchronous  way, i.e. the observable calls the appropriate method of all its observers when some event occurs. The  Publisher/Subscriber  pattern is mostly implemented in an  asynchronous  way (using message queue).  In the  Observer/Observable  pattern,  the observers are aware of the observable . Whereas, in  Publisher/Subscriber , publishers and subscribers  don't need to know each other . They simply communicate with the help of message queues.       Observer pattern    Broadcast Receiver    Design Patterns: Elements of Reusable Object-Oriented Software    Which design patterns are used on Android?    stackoverflow, Difference between Observer, Pub/Sub, and Data Binding", 
+            "title": "Observer/Observable pattern vs Publisher/Subscriber pattern 5"
+        }, 
+        {
             "location": "/os/", 
             "text": "Operating System\n\n\n\n\nAn operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs. The operating system is a component of the system software in a computer system. Application programs usually require an operating system to function.\n\n\n\n\nCommon Features\n\n\n\n\nIO: File Operations\n\n\nSecurity: User Environments\n\n\nNetwork Operations\n\n\nProcess Manager\n\n\nSystem Information\n\n\nText Processing \n Pipeline\n\n\nDevice Manager", 
             "title": "Introduction"
@@ -604,6 +649,131 @@
             "location": "/os_windows/#installing-theano-on-windows-81", 
             "text": "Getting\u00a0theano works in Windows 8.1 is not easy but possible. The important is use the right receipts. I found the right receipts and nice tutorial  here  Receipts   Windows 8.1 64-bit  CUDA 64-bit 7  Visual Studio 2013 (compiler 12.0) Ultimate  Anaconda 64-bit 2.1.0  Git-scm   I'm very happy getting things done.  PS C:Usersrain  python\nPython 2.7.8 |Anaconda 2.1.0 (64-bit)| (default, Jul 2 2014, 15:12:11) [MSC v.1500 64 bit (AMD64)] on win32\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\nAnaconda is brought to you by Continuum Analytics.\nPlease check out: http://continuum.io/thanks and https://binstar.org  import theano\nDEBUG: nvcc STDOUT mod.cu\nCreating library C:/Users/rain/AppData/Local/Theano/compiledir_Windows-8-6.2.9200-Intel64_Family_6_Model_60_Stepping_\n3_GenuineIntel-2.7.8-64/cuda_ndarray/cuda_ndarray.lib and object C:/Users/rain/AppData/Local/Theano/compiledir_Windows-8\n-6.2.9200-Intel64_Family_6_Model_60_Stepping_3_GenuineIntel-2.7.8-64/cuda_ndarray/cuda_ndarray.exp\n\nUsing gpu device 0: GeForce GTX 980\nDEBUG: nvcc STDOUT mod.cu\nCreating library C:/Users/rain/AppData/Local/Theano/compiledir_Windows-8-6.2.9200-Intel64_Family_6_Model_60_Stepping_\n3_GenuineIntel-2.7.8-64/tmpgt3iqm/c8d7bd33dfef61705c2854dd1f0cb7ce.lib and object C:/Users/rain/AppData/Local/Theano/com\npiledir_Windows-8-6.2.9200-Intel64_Family_6_Model_60_Stepping_3_GenuineIntel-2.7.8-64/tmpgt3iqm/c8d7bd33dfef61705c2854dd\n1f0cb7ce.exp\n\nDEBUG: nvcc STDOUT mod.cu\nCreating library C:/Users/rain/AppData/Local/Theano/compiledir_Windows-8-6.2.9200-Intel64_Family_6_Model_60_Stepping_\n3_GenuineIntel-2.7.8-64/tmpfab1so/0fc80e98cce631ecaa526b69dd28dae1.lib and object C:/Users/rain/AppData/Local/Theano/com\npiledir_Windows-8-6.2.9200-Intel64_Family_6_Model_60_Stepping_3_GenuineIntel-2.7.8-64/tmpfab1so/0fc80e98cce631ecaa526b69\ndd28dae1.exp      Windows MBR fix    While loop in batch    Command line parameters    Windows Batch Files for Fun and Profit", 
             "title": "Installing Theano on Windows 8.1"
+        }, 
+        {
+            "location": "/ux/", 
+            "text": "1. Design Principles\n\n\nUI Design Do\u2019s and Don\u2019ts\n\n\nAndroid Design Principles\n\n\n2. Design Trends\n\n\n2.1 Material Design \n1\n\n\ncomponents\n\n\n\n\nWe challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.\n\n\n\n\n\n\nTools\n\n\n\n\nmaterialpalette.com\n\n\nIcon: fa2png\n\n\n\n\nUI Components\n\n\n\n\nData Binding\n\n\nTransclusion\n\n\nDirective - Fragments\n\n\nMessaging\n\n\nIntent \nAndroid\n \n1\n\n\nIntents are asynchronous messages which allow application components to request functionality from other Android components. Intents allow you to interact with components from the same applications as well as with components contributed by other applications. For example, an activity can start an external activity for taking a picture.\n\n\nIntents are objects of the android.content.Intent type. Your code can send them to the Android system defining the components you are targeting. For example, via the startActivity() method you can define that the intent should be used to start an activity.\n\n\nAn intent can contain data via a Bundle. This data can be used by the receiving component.\n\n\nStyle \n Theme\n\n\nAndroid Development: Explaining Styles and Themes, https://m.youtube.com/#/watch?v=MXpG3Xq0w3A\n\n\nResponsive Design\n\n\nSupport Multi Screen \n2\n\n\n\n\n\n\n\n\n\n\nIntent Android\n\n\n\n\n\n\nSupport Multi Screen", 
+            "title": "UX/UI"
+        }, 
+        {
+            "location": "/ux/#1-design-principles", 
+            "text": "UI Design Do\u2019s and Don\u2019ts  Android Design Principles", 
+            "title": "1. Design Principles"
+        }, 
+        {
+            "location": "/ux/#2-design-trends", 
+            "text": "", 
+            "title": "2. Design Trends"
+        }, 
+        {
+            "location": "/ux/#21-material-design-1", 
+            "text": "components   We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.    Tools   materialpalette.com  Icon: fa2png", 
+            "title": "2.1 Material Design 1"
+        }, 
+        {
+            "location": "/ux/#ui-components", 
+            "text": "", 
+            "title": "UI Components"
+        }, 
+        {
+            "location": "/ux/#data-binding", 
+            "text": "", 
+            "title": "Data Binding"
+        }, 
+        {
+            "location": "/ux/#transclusion", 
+            "text": "Directive - Fragments", 
+            "title": "Transclusion"
+        }, 
+        {
+            "location": "/ux/#messaging", 
+            "text": "Intent  Android   1  Intents are asynchronous messages which allow application components to request functionality from other Android components. Intents allow you to interact with components from the same applications as well as with components contributed by other applications. For example, an activity can start an external activity for taking a picture.  Intents are objects of the android.content.Intent type. Your code can send them to the Android system defining the components you are targeting. For example, via the startActivity() method you can define that the intent should be used to start an activity.  An intent can contain data via a Bundle. This data can be used by the receiving component.", 
+            "title": "Messaging"
+        }, 
+        {
+            "location": "/ux/#style-theme", 
+            "text": "Android Development: Explaining Styles and Themes, https://m.youtube.com/#/watch?v=MXpG3Xq0w3A", 
+            "title": "Style &amp; Theme"
+        }, 
+        {
+            "location": "/ux/#responsive-design", 
+            "text": "Support Multi Screen  2      Intent Android    Support Multi Screen", 
+            "title": "Responsive Design"
+        }, 
+        {
+            "location": "/software_architecture/", 
+            "text": "Service-Oriented Architecture\n\n\nA service-oriented architecture (SOA) is an architectural pattern in computer software design in which application components provide services to other components via a communications protocol, typically over a network. The principles of service-orientation are independent of any vendor, product or technology. \n2\n\n\n\n\nGenerally accepted view \n1\n\n\n\n\nBoundaries are explicit\n\n\nServices are autonomous\n\n\nServices share schema and contract, not class\n\n\nService compatibility is based on policy\n\n\n\n\nMicroservices\n\n\n\n\nIn computing, microservices is a software architecture style in which complex applications are composed of small, independent processes communicating with each other using language-agnostic APIs. These services are small building blocks, highly decoupled and focussed on doing a small task, facilitating a modular approach to system-building. One of concepts which integrates microservices as a software architecture style is dew computing. \n1\n\n\n\n\n\n\nProperties \n2\n\n\n\n\nEach running in its own process\n\n\nCommunicating with lightweight mechanisms, often an \nHTTP resource API\n\n\nBuild around \nbusiness capabilities\n\n\nIndependently deployable\n\n\nfully automated\n deployment\n\n\nMaybe in a \ndifferent programming language\n and use \ndifferent data storage\n technologies\n\n\n\n\nMonolith vs Microservice\n\n\n\n\n\n\nMonolith\n\n\nMicroservice\n\n\n\n\n\n\nSimplicity\n\n\nPartial Deployment\n\n\n\n\n\n\nConsistency\n\n\nAvailability\n\n\n\n\n\n\nInter-module refactoring\n\n\nPreserve Modularity\n\n\n\n\n\n\n\n\nMultiple Platforms\n\n\n\n\n\n\n\nBenefits \n4\n\n\n\n\nTheir small size enables developers to be most productive.\n\n\nIt's easy to comprehend and test each service.\n\n\nYou can correctly handle failure of any dependent service.\n\n\nThey reduce impact of correlated failures.\n\n\n\n\nWeb Service\n\n\nRESTful API\n\n\n\n\nREST Client\n\n\nSense (Beta)\n\n\nA JSON aware developer console to ElasticSearch.\n\n\nAPI Document and Client Generator\n\n\nhttp://swagger.io/swagger-editor/\n\n\nAPI Client\n\n\nCRUD Pet\n\n\n\n\n\n\n\n\nAPI\n\n\nClient\n\n\n\n\n\n\nMethod\n\n\nURL\n\n\nBody\n\n\nReturn Body\n\n\nMethod\n\n\n\n\n\n\nGET\n\n\n/pets\n\n\n\n\n[Pet]\n\n\nPetApi.list()\n\n\n\n\n\n\nPOST\n\n\n/pets/\n\n\nPet\n\n\nPet\n\n\nPetApi.create(pet)\n\n\n\n\n\n\nGET\n\n\n/pets/pet_id\n\n\n\n\nPet\n\n\nPetApi.get(pet_id)\n\n\n\n\n\n\nPUT\n\n\n/pets/pet_id\n\n\nPet\n\n\nPet\n\n\nPetApi.update(pet_id, pet)\n\n\n\n\n\n\nDELETE\n\n\n/pets/pet_id\n\n\n\n\n\n\nPetApi.delete(pet_id)\n\n\n\n\n\n\n\n\n\n\n\n\nCRUD Store\n\n\n\n\n\n\n\n\nGET /stores\n\n\nStoreApi.list()\n\n\n\n\n\n\n...\n\n\n...\n\n\n\n\n\n\n\n\n\nRelationships\n\n\nMany to many\n\n\n\n\n\n\n\n\nGET /stores/sotre_id/pets\n\n\nStoreApi.get_pets(store_id)\n\n\n\n\n\n\n### Example\n\n[https://api.facebook.com/method/links.getStats?urls=%%URL%%\n=json](https://api.facebook.com/method/links.getStats?urls=%%URL%%\n=json)\n\n\n\n\n\n\n\n\n\n\n\n\nMicroservices\n\n\n\n\n\n\nSlide 11/42, Micro-servies\n\n\n\n\n\n\nMartin Fowler, Microservices, youtube\n\n\n\n\n\n\nRick E. Osowski, Microservices in action, Part 1: Introduction to microservices, IBM developerworks", 
+            "title": "SA"
+        }, 
+        {
+            "location": "/software_architecture/#service-oriented-architecture", 
+            "text": "A service-oriented architecture (SOA) is an architectural pattern in computer software design in which application components provide services to other components via a communications protocol, typically over a network. The principles of service-orientation are independent of any vendor, product or technology.  2", 
+            "title": "Service-Oriented Architecture"
+        }, 
+        {
+            "location": "/software_architecture/#generally-accepted-view-1", 
+            "text": "Boundaries are explicit  Services are autonomous  Services share schema and contract, not class  Service compatibility is based on policy", 
+            "title": "Generally accepted view 1"
+        }, 
+        {
+            "location": "/software_architecture/#microservices", 
+            "text": "In computing, microservices is a software architecture style in which complex applications are composed of small, independent processes communicating with each other using language-agnostic APIs. These services are small building blocks, highly decoupled and focussed on doing a small task, facilitating a modular approach to system-building. One of concepts which integrates microservices as a software architecture style is dew computing.  1", 
+            "title": "Microservices"
+        }, 
+        {
+            "location": "/software_architecture/#properties-2", 
+            "text": "Each running in its own process  Communicating with lightweight mechanisms, often an  HTTP resource API  Build around  business capabilities  Independently deployable  fully automated  deployment  Maybe in a  different programming language  and use  different data storage  technologies", 
+            "title": "Properties 2"
+        }, 
+        {
+            "location": "/software_architecture/#monolith-vs-microservice", 
+            "text": "Monolith  Microservice    Simplicity  Partial Deployment    Consistency  Availability    Inter-module refactoring  Preserve Modularity     Multiple Platforms", 
+            "title": "Monolith vs Microservice"
+        }, 
+        {
+            "location": "/software_architecture/#benefits-4", 
+            "text": "Their small size enables developers to be most productive.  It's easy to comprehend and test each service.  You can correctly handle failure of any dependent service.  They reduce impact of correlated failures.", 
+            "title": "Benefits 4"
+        }, 
+        {
+            "location": "/software_architecture/#web-service", 
+            "text": "", 
+            "title": "Web Service"
+        }, 
+        {
+            "location": "/software_architecture/#restful-api", 
+            "text": "", 
+            "title": "RESTful API"
+        }, 
+        {
+            "location": "/software_architecture/#rest-client", 
+            "text": "Sense (Beta)  A JSON aware developer console to ElasticSearch.", 
+            "title": "REST Client"
+        }, 
+        {
+            "location": "/software_architecture/#api-document-and-client-generator", 
+            "text": "http://swagger.io/swagger-editor/", 
+            "title": "API Document and Client Generator"
+        }, 
+        {
+            "location": "/software_architecture/#api-client", 
+            "text": "CRUD Pet     API  Client    Method  URL  Body  Return Body  Method    GET  /pets   [Pet]  PetApi.list()    POST  /pets/  Pet  Pet  PetApi.create(pet)    GET  /pets/pet_id   Pet  PetApi.get(pet_id)    PUT  /pets/pet_id  Pet  Pet  PetApi.update(pet_id, pet)    DELETE  /pets/pet_id    PetApi.delete(pet_id)      CRUD Store     GET /stores  StoreApi.list()    ...  ...     Relationships  Many to many     GET /stores/sotre_id/pets  StoreApi.get_pets(store_id)   \n\n### Example\n\n[https://api.facebook.com/method/links.getStats?urls=%%URL%% =json](https://api.facebook.com/method/links.getStats?urls=%%URL%% =json)     Microservices    Slide 11/42, Micro-servies    Martin Fowler, Microservices, youtube    Rick E. Osowski, Microservices in action, Part 1: Introduction to microservices, IBM developerworks", 
+            "title": "API Client"
+        }, 
+        {
+            "location": "/licenses/", 
+            "text": "Licenses\n\n\n\n\nMore\n\n\n\n\nOpen Source Licenses\n\n\nChoose A License\n\n\nTop 20 Open Source Licenses", 
+            "title": "Licenses"
+        }, 
+        {
+            "location": "/licenses/#licenses", 
+            "text": "", 
+            "title": "Licenses"
+        }, 
+        {
+            "location": "/licenses/#more", 
+            "text": "Open Source Licenses  Choose A License  Top 20 Open Source Licenses", 
+            "title": "More"
         }
     ]
 }

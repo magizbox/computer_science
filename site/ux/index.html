@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>Introduction - ComputerScience</title>
+	<title>UX/UI - ComputerScience</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
@@ -131,13 +131,13 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">OS <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li class="active">
-    <a href="./">Introduction</a>
+<li >
+    <a href="../os/">Introduction</a>
 </li>
 
                         
@@ -170,8 +170,8 @@
                 
                 
                 
-                    <li >
-                        <a href="../ux/">UX/UI</a>
+                    <li class="active">
+                        <a href="./">UX/UI</a>
                     </li>
                 
                 
@@ -198,12 +198,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../oop_designpattern/">
+                        <a rel="next" href="../os_windows/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../os_linux/">
+                        <a rel="prev" href="../software_architecture/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -219,27 +219,71 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#operating-system">Operating System</a></li>
+        <li class="main active"><a href="#1-design-principles">1. Design Principles</a></li>
+        
+    
+        <li class="main "><a href="#2-design-trends">2. Design Trends</a></li>
+        
+            <li><a href="#21-material-design-1">2.1 Material Design 1</a></li>
+        
+    
+        <li class="main "><a href="#ui-components">UI Components</a></li>
+        
+            <li><a href="#data-binding">Data Binding</a></li>
+        
+            <li><a href="#transclusion">Transclusion</a></li>
+        
+            <li><a href="#messaging">Messaging</a></li>
+        
+            <li><a href="#style-theme">Style &amp; Theme</a></li>
+        
+            <li><a href="#responsive-design">Responsive Design</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="operating-system">Operating System</h1>
+<h3 id="1-design-principles">1. Design Principles</h3>
+<p><a href="https://developer.apple.com/design/tips/">UI Design Do’s and Don’ts</a>
+<a href="http://developer.android.com/design/get-started/principles.html">Android Design Principles</a></p>
+<h3 id="2-design-trends">2. Design Trends</h3>
+<h4 id="21-material-design-1">2.1 Material Design <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></h4>
+<p><small><a href="https://www.google.com/design/spec/components/bottom-sheets.html">components</a></small></p>
 <blockquote>
-<p>An operating system (OS) is system software that manages computer hardware and software resources and provides common services for computer programs. The operating system is a component of the system software in a computer system. Application programs usually require an operating system to function.</p>
+<p>We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.</p>
 </blockquote>
-<p>Common Features</p>
+<p><img alt="" src="http://beebom.redkapmedia.netdna-cdn.com/wp-content/uploads/2015/02/raindrop-material-design-apps-for-android.jpg" /></p>
+<p>Tools</p>
+<ul>
+<li><a href="https://www.materialpalette.com">materialpalette.com</a></li>
+<li><a href="http://fa2png.io/">Icon: fa2png</a></li>
+</ul>
+<h1 id="ui-components">UI Components</h1>
+<p><img alt="" src="https://w3layouts.com/wp-content/uploads/2013/11/ui-kits-web2.jpg" /></p>
+<h3 id="data-binding">Data Binding</h3>
+<h3 id="transclusion">Transclusion</h3>
+<p>Directive - Fragments</p>
+<h3 id="messaging">Messaging</h3>
+<p>Intent <small><code>Android</code></small> <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup></p>
+<p>Intents are asynchronous messages which allow application components to request functionality from other Android components. Intents allow you to interact with components from the same applications as well as with components contributed by other applications. For example, an activity can start an external activity for taking a picture.</p>
+<p>Intents are objects of the android.content.Intent type. Your code can send them to the Android system defining the components you are targeting. For example, via the startActivity() method you can define that the intent should be used to start an activity.</p>
+<p>An intent can contain data via a Bundle. This data can be used by the receiving component.</p>
+<h3 id="style-theme">Style &amp; Theme</h3>
+<p>Android Development: Explaining Styles and Themes, https://m.youtube.com/#/watch?v=MXpG3Xq0w3A</p>
+<h3 id="responsive-design">Responsive Design</h3>
+<p>Support Multi Screen <sup id="fnref:2"><a class="footnote-ref" href="#fn:2" rel="footnote">2</a></sup></p>
+<div class="footnote">
+<hr />
 <ol>
-<li>IO: File Operations</li>
-<li>Security: User Environments</li>
-<li>Network Operations</li>
-<li>Process Manager</li>
-<li>System Information</li>
-<li>Text Processing &amp; Pipeline</li>
-<li>Device Manager</li>
-</ol></div>
+<li id="fn:1">
+<p><a href="http://www.vogella.com/tutorials/AndroidIntent/article.html">Intent Android</a>&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="http://developer.android.com/training/basics/supporting-devices/platforms.html">Support Multi Screen</a>&#160;<a class="footnote-backref" href="#fnref:2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
             
         </div>
 

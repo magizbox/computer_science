@@ -67,6 +67,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>None/oop_designpattern/</loc>
+     <lastmod>2016-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
@@ -101,6 +107,30 @@
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
+    <url>
+     <loc>None/ux/</loc>
+     <lastmod>2016-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/software_architecture/</loc>
+     <lastmod>2016-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/licenses/</loc>
+     <lastmod>2016-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     
 
 </urlset>
