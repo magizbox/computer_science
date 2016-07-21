@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>SQL - ComputerScience</title>
+	<title>Ubuntu - ComputerScience</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
@@ -65,7 +65,7 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Database <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -76,8 +76,8 @@
 
                         
                             
-<li class="active">
-    <a href="./">SQL</a>
+<li >
+    <a href="../db_sql/">SQL</a>
 </li>
 
                         
@@ -125,7 +125,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Operating System <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -148,8 +148,8 @@
 
                         
                             
-<li >
-    <a href="../os_ubuntu/">Ubuntu</a>
+<li class="active">
+    <a href="./">Ubuntu</a>
 </li>
 
                         
@@ -174,12 +174,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../database/">
+                        <a rel="next" href="../os_centos/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../db_mysql/">
+                        <a rel="prev" href="../os_windows/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -195,28 +195,70 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#sql">SQL</a></li>
+        <li class="main active"><a href="#apps">Apps</a></li>
+        
+            <li><a href="#install-git">Install git</a></li>
+        
+    
+        <li class="main "><a href="#gui-ubuntu-desktop">GUI `ubuntu-desktop</a></li>
+        
+    
+        <li class="main "><a href="#install-intellij-in-ubuntu">Install IntellIJ in ubuntu</a></li>
+        
+            <li><a href="#downloads-intellij">Downloads intellij</a></li>
+        
+            <li><a href="#create-ubuntu-desktop-launcher">Create Ubuntu desktop launcher</a></li>
+        
+    
+        <li class="main "><a href="#install-pycharm-on-ubuntu">Install Pycharm on Ubuntu</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="sql">SQL</h1>
-<blockquote>
-  SELECT * FROM WORLD
-</blockquote>
+<h3 id="apps">Apps</h3>
+<p><strong>IntellIJ</strong></p>
+<pre><code>
+</code></pre>
 
-<p><img src="https://lh3.googleusercontent.com/NILhuoMxC-La3vJxUo9kNW6Voai3WSEVugDg040Vy6yxG7Ite9eJ=w720-h405-no" class="alignnone" /></p>
-<blockquote>
-  INSERT INTO
-</blockquote>
+<h4 id="install-git">Install git</h4>
+<pre><code class="shell">apt-get install -y git
+</code></pre>
 
-<p><img src="http://www.pinaldave.com/bimg/cake/cake3.jpg" width="500" height="375" class="alignnone" /></p>
-<blockquote>
-<p>SELECT * FROM girls</p>
-</blockquote>
-<p><img alt="" src="http://geekshumor.com/wp-content/uploads/2013/11/SQL-in-real-life.png" /></p></div>
+<h3 id="gui-ubuntu-desktop">GUI `ubuntu-desktop</h3>
+<pre><code>apt-get install ubuntu-desktop
+</code></pre>
+
+<p>Then restart computer, ubuntu-desktop will run in the next login.</p>
+<h1 id="install-intellij-in-ubuntu">Install IntellIJ in ubuntu</h1>
+<h3 id="downloads-intellij">Downloads intellij</h3>
+<pre><code>https://www.jetbrains.com/idea/download/
+</code></pre>
+
+<h3 id="create-ubuntu-desktop-launcher">Create Ubuntu desktop launcher</h3>
+<p>run intellij : cd to folder intellij</p>
+<pre><code>cd file://path intellij/idea.sh
+</code></pre>
+
+<p>Create Ubuntu desktop</p>
+<pre><code>Tools &gt; Create Desktop Entry
+</code></pre>
+
+<h1 id="install-pycharm-on-ubuntu">Install Pycharm on Ubuntu</h1>
+<p>Step 1. To add the PPA, open terminal from the Dash, Launcher, or via Ctrl+Alt+T shortcut keys. When it opens, run command:</p>
+<pre><code>sudo add-apt-repository ppa:mystic-mirage/pycharm
+</code></pre>
+
+<p>Step 2. After adding the PPA, update system package cache and install the IDE via Synaptic Package Manager. Or just run below commands one by one in terminal:</p>
+<pre><code>sudo apt-get update
+
+sudo apt-get install pycharm
+</code></pre>
+
+<p>Step 3. After finishing the installation, start Pycharm. It will prompt you to activate with license, choose the <code>License Server</code> checkbox and copy below row to it:</p>
+<pre><code>http://idea.qinxi1992.cn
+</code></pre></div>
             
         </div>
 

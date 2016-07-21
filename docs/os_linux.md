@@ -1,1 +1,1 @@
-Please visit [linux tutorial page][/linux]
+Please visit [linux tutorial page](/linux)
