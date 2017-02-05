@@ -1,17 +1,12 @@
 site_name: ComputerScience
 pages:
 - "Home": 'index.md'
-- "D&A": 'data_algorithm.md'
 - "Database":
   - "Introduction": "database.md"
   - "SQL": "db_sql.md"
   - "MySQL": "db_mysql.md"
   - "Redis": "db_redis.md"
 - "Networking": 'networking.md'
-- "OOP":
-  - "Introduction": 'oop.md'
-  - "UML": 'oop_uml.md'
-  - "Design Patterns": 'oop_designpattern.md'
 - "OS":
   - "Introduction": 'os.md'
   - "Linux": 'os_linux.md'
