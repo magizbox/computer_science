@@ -3,8 +3,8 @@
 
     
     <url>
-     <loc>None/</loc>
-     <lastmod>2017-02-05</lastmod>
+     <loc>/</loc>
+     <lastmod>2017-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,68 +12,32 @@
     
         
     <url>
-     <loc>None/database/</loc>
-     <lastmod>2017-02-05</lastmod>
+     <loc>/database/</loc>
+     <lastmod>2017-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/db_sql/</loc>
-     <lastmod>2017-02-05</lastmod>
+     <loc>/db_sql/</loc>
+     <lastmod>2017-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/db_mysql/</loc>
-     <lastmod>2017-02-05</lastmod>
+     <loc>/db_mysql/</loc>
+     <lastmod>2017-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/db_redis/</loc>
-     <lastmod>2017-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-    <url>
-     <loc>None/networking/</loc>
-     <lastmod>2017-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-        
-    <url>
-     <loc>None/os/</loc>
-     <lastmod>2017-02-05</lastmod>
+     <loc>/db_redis/</loc>
+     <lastmod>2017-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/os_linux/</loc>
-     <lastmod>2017-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/os_centos/</loc>
-     <lastmod>2017-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/os_ubuntu/</loc>
-     <lastmod>2017-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/os_windows/</loc>
-     <lastmod>2017-02-05</lastmod>
+     <loc>/db_mongo/</loc>
+     <lastmod>2017-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -81,24 +45,66 @@
 
     
     <url>
-     <loc>None/ux/</loc>
-     <lastmod>2017-02-05</lastmod>
+     <loc>/networking/</loc>
+     <lastmod>2017-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>/os/</loc>
+     <lastmod>2017-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/os_linux/</loc>
+     <lastmod>2017-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/os_centos/</loc>
+     <lastmod>2017-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/os_ubuntu/</loc>
+     <lastmod>2017-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/os_windows/</loc>
+     <lastmod>2017-02-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>/ux/</loc>
+     <lastmod>2017-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/software_architecture/</loc>
-     <lastmod>2017-02-05</lastmod>
+     <loc>/software_architecture/</loc>
+     <lastmod>2017-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/licenses/</loc>
-     <lastmod>2017-02-05</lastmod>
+     <loc>/licenses/</loc>
+     <lastmod>2017-02-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
