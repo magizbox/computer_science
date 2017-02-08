@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Licenses - ComputerScience</title>
+        <title>Mongo - ComputerScience</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -48,7 +48,7 @@
                     <li >
                         <a href="..">Home</a>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Database <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             
@@ -68,8 +68,8 @@
     <a href="../db_redis/">Redis</a>
 </li>
                             
-<li >
-    <a href="../db_mongo/">Mongo</a>
+<li class="active">
+    <a href="./">Mongo</a>
 </li>
                         </ul>
                     </li>
@@ -107,8 +107,8 @@
                     <li >
                         <a href="../software_architecture/">SA</a>
                     </li>
-                    <li class="active">
-                        <a href="./">Licenses</a>
+                    <li >
+                        <a href="../licenses/">Licenses</a>
                     </li>
                 </ul>
 
@@ -119,12 +119,12 @@
                     </a>
                 </li>
                     <li >
-                        <a rel="next" href="../software_architecture/">
+                        <a rel="next" href="../db_redis/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../networking/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -136,20 +136,105 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#licenses">Licenses</a></li>
-            <li><a href="#more">More</a></li>
+        <li class="main active"><a href="#mongo">Mongo</a></li>
+        <li class="main "><a href="#client">Client</a></li>
+            <li><a href="#mongo-shell">Mongo Shell</a></li>
+            <li><a href="#pymongo-python-client">PyMongo - Python Client</a></li>
+            <li><a href="#docker">Docker</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="licenses">Licenses</h1>
-<p><img alt="" src="https://lh3.googleusercontent.com/3Q3btaAWFiCLVatLNlJHy25H57uNC5aL2EeN62OGlCkuDSh_oK6x3b_rvdEFuyOtrzcFbsweKpI8hw=w1013-h636-no" /></p>
-<h3 id="more">More</h3>
+<h1 id="mongo"><a href="https://www.mongodb.com/">Mongo</a></h1>
+<p><img alt="" src="https://webassets.mongodb.com/_com_assets/cms/MongoDB-Logo-5c3a7405a85675366beb3a5ec4c032348c390b3f142f5e6dddf1d78e2df5cb5c.png" /></p>
+<p>MongoDB is an open-source document database that provides high performance, high availability, and automatic scaling.</p>
+<p>MongoDB provides high performance data persistence. In particular,</p>
 <ul>
-<li><a href="https://docs.google.com/spreadsheets/d/12wjdr-MKZ-H1tQh2gXNVoT-hR8J-C_1JBua4o10kVU8/edit?usp=sharing">Open Source Licenses</a></li>
-<li><a href="http://choosealicense.com/licenses/">Choose A License</a></li>
-<li><a href="https://www.blackducksoftware.com/resources/data/top-20-open-source-licenses">Top 20 Open Source Licenses</a></li>
-</ul></div>
+<li>Support for embedded data models reduces I/O activity on database system.</li>
+<li>Indexes support faster queries and can include keys from embedded documents and arrays.</li>
+</ul>
+<p>MongoDB is #1 in the Document Store according to <a href="http://db-engines.com/en/ranking/document+store">db-engines</a></p>
+<h1 id="client">Client</h1>
+<h2 id="mongo-shell">Mongo Shell</h2>
+<p>The <a href="https://docs.mongodb.com/getting-started/shell/client/">mongo shell</a> is an interactive JavaScript interface to MongoDB and is a component of the MongoDB package. You can use the mongo shell to query and update data as well as perform administrative operations.</p>
+<p><strong>Start Mongo</strong></p>
+<p>Once you have installed and have started MongoDB, connect the mongo shell to your running MongoDB instance. Ensure that MongoDB is running before attempting to launch the mongo shell.</p>
+<pre><code class="sh">mongo
+</code></pre>
+
+<p><strong>Interact with mongo via shell</strong></p>
+<pre><code class="sh"># Show list database
+&gt; show dbs
+
+# Create or use a database
+&gt; use &lt;database_name&gt;
+&gt; use test # example
+
+# List collection
+&gt; show collections
+
+# Create or use a collection
+&gt; db.&lt;collection_name&gt;
+&gt; db.new_collection # example
+
+# Read document
+&gt; db.new_collection.find()
+
+# Insert new document
+&gt; db.new_collection.insertOne({&quot;a&quot;: &quot;b&quot;})
+
+# Update document
+&gt; db.new_collection.update({&quot;a&quot;: &quot;b&quot;}, {$set: {&quot;a&quot;: &quot;bcd&quot;}})
+
+# Remove document
+&gt; db.new_collection.remove({&quot;a&quot;: &quot;b&quot;})
+</code></pre>
+
+<h2 id="pymongo-python-client">PyMongo - Python Client</h2>
+<p><a href="https://api.mongodb.com/python/current/">PyMongo</a> is a Python distribution containing tools for working with MongoDB, and is the recommended way to work with MongoDB from Python. This documentation attempts to explain everything you need to know to use PyMongo.</p>
+<h3 id="installation">Installation</h3>
+<p>We recommend using pip to install pymongo on all platforms:</p>
+<pre><code>pip install pymongo
+</code></pre>
+
+<h3 id="usage">Usage</h3>
+<pre><code class="python">import pymongo
+# create connection
+client = pymongo.MongoClient('127.0.0.1', 27017)
+-&gt; MongoClient(host=['127.0.0.1:27017'], document_class=dict, tz_aware=False, connect=True)
+
+# create database
+db = client.db_test
+-&gt; Database(MongoClient(host=['127.0.0.1:27017'], document_class=dict, tz_aware=False, connect=True), u'db_test')
+
+# create collection (collection is the same with table in SQL)
+collection = db.new_collection
+
+# insert document to collection (document is the same with rows in SQL)
+db.collection.insert_one({&quot;c&quot;: &quot;d&quot;})
+-&gt;  &lt;pymongo.results.InsertOneResult at 0x7f7eab3c9f00&gt;
+
+# read document of collection
+db.new_collection.find_one({&quot;c&quot;: &quot;d&quot;})
+-&gt; {u'_id': ObjectId('589a8195f23e627a973c4d3c'), u'c': u'd'}
+
+# update documents of collection
+db.new_collection.update(
+    { &quot;c&quot; : &quot;d&quot; },
+    { &quot;$set&quot;: { &quot;c&quot;: &quot;def&quot;}}
+)
+-&gt; {u'n': 1, u'nModified': 1, u'ok': 1.0, 'updatedExisting': True}
+
+# remove document of collection
+db.new_collection.remove({&quot;c&quot;: &quot;def&quot;})
+-&gt; {u'n': 1, u'ok': 1.0}
+</code></pre>
+
+<h2 id="docker">Docker</h2>
+<h3 id="docker-run">Docker Run</h3>
+<p>Run images and share port</p>
+<pre><code>docker run -p 27017:27017 mongo:latest
+</code></pre></div>
         </div>
 
         <footer class="col-md-12">

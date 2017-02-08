@@ -6,6 +6,7 @@ pages:
   - "SQL": "db_sql.md"
   - "MySQL": "db_mysql.md"
   - "Redis": "db_redis.md"
+  - "Mongo": "db_mongo.md"
 - "Networking": 'networking.md'
 - "OS":
   - "Introduction": 'os.md'
