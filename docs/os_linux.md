@@ -1,4 +1,6 @@
-# Linux
+## Linux
+
+Linux  is a Unix-like computer operating system assembled under the model of free and open-source software development and distribution. The defining component of Linux is the Linux kernel, an operating system kernel first released on September 17, 1991 by Linus Torvalds. The Free Software Foundation uses the name GNU/Linux to describe the operating system, which has led to some controversy.
 
 ## Networking
 
@@ -214,13 +216,18 @@ default         192.168.1.1     0.0.0.0         UG        0 0          0 eth2
 $ netstat -i
 ```
 
-### Host (file)
+### hostfile
 
 The computer file hosts is an operating system file that maps hostnames to IP addresses. It is a plain text file. Originally a file named HOSTS.TXT was manually maintained and made available via file sharing by Stanford Research Institute for the ARPANET membership, containing the hostnames and address of hosts as contributed for inclusion by member organizations
 
 **File content**
 
 The hosts file contains lines of text consisting of an IP address in the first text field followed by one or more host names. Each field is separated by white space – tabs are often preferred for historical reasons, but spaces are also used. Comment lines may be included; they are indicated by a hash character (#) in the first position of such lines. Entirely blank lines in the file are ignored. For example, a typical hosts file may contain the following:
+
+```
+127.0.0.1  localhost loopback
+::1        localhost
+```
 
 **Location in the file system**
 
@@ -236,13 +243,9 @@ The hosts file contains lines of text consisting of an IP address in the first t
 |                        | Mac OS X 10.2 and newer   | /etc/hosts (a symbolic link to /private/etc/hosts) |
 
 
-```
-127.0.0.1  localhost loopback
-::1        localhost
-```
-
 **References**
 
 * [Complete Linux Networking Tutorial](https://www.youtube.com/watch?v=fHgk7aDGn_4)
+* [Linux Networking Tutorial for System Admins w/Subtitles](https://www.youtube.com/playlist?list=PLYmlEoSHldN498gmB-W-z3PEN5bevM53B)
 * [Linux Networking Basics](https://www.youtube.com/watch?v=51tX4XFNGqY&list=PLD77wXPYdVJIf2OaienlLgLzibW_LrKx2)
 * [Packet Analyzer: 15 TCPDUMP Command Examples](http://www.thegeekstuff.com/2010/08/tcpdump-command-examples/)

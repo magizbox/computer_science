@@ -194,14 +194,26 @@
     
         <li class="main active"><a href="#linux">Linux</a></li>
         
-            <li><a href="#networking">Networking</a></li>
+    
+        <li class="main "><a href="#networking">Networking</a></li>
+        
+            <li><a href="#ping">ping</a></li>
+        
+            <li><a href="#ifconfig">ifconfig</a></li>
+        
+            <li><a href="#tcpdump">tcpdump</a></li>
+        
+            <li><a href="#netstat">netstat</a></li>
+        
+            <li><a href="#hostfile">hostfile</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="linux">Linux</h1>
+<h2 id="linux">Linux</h2>
+<p>Linux  is a Unix-like computer operating system assembled under the model of free and open-source software development and distribution. The defining component of Linux is the Linux kernel, an operating system kernel first released on September 17, 1991 by Linus Torvalds. The Free Software Foundation uses the name GNU/Linux to describe the operating system, which has led to some controversy.</p>
 <h2 id="networking">Networking</h2>
 <h3 id="ping"><a href="http://www.computerhope.com/unix/uping.htm">ping</a></h3>
 <p><em>send ICMP ECHO_REQUEST to network hosts</em></p>
@@ -401,10 +413,14 @@ default         192.168.1.1     0.0.0.0         UG        0 0          0 eth2
 $ netstat -i
 </code></pre>
 
-<h3 id="host-file">Host (file)</h3>
+<h3 id="hostfile">hostfile</h3>
 <p>The computer file hosts is an operating system file that maps hostnames to IP addresses. It is a plain text file. Originally a file named HOSTS.TXT was manually maintained and made available via file sharing by Stanford Research Institute for the ARPANET membership, containing the hostnames and address of hosts as contributed for inclusion by member organizations</p>
 <p><strong>File content</strong></p>
 <p>The hosts file contains lines of text consisting of an IP address in the first text field followed by one or more host names. Each field is separated by white space – tabs are often preferred for historical reasons, but spaces are also used. Comment lines may be included; they are indicated by a hash character (#) in the first position of such lines. Entirely blank lines in the file are ignored. For example, a typical hosts file may contain the following:</p>
+<pre><code>127.0.0.1  localhost loopback
+::1        localhost
+</code></pre>
+
 <p><strong>Location in the file system</strong></p>
 <table>
 <thead>
@@ -457,13 +473,10 @@ $ netstat -i
 </tr>
 </tbody>
 </table>
-<pre><code>127.0.0.1  localhost loopback
-::1        localhost
-</code></pre>
-
 <p><strong>References</strong></p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=fHgk7aDGn_4">Complete Linux Networking Tutorial</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLYmlEoSHldN498gmB-W-z3PEN5bevM53B">Linux Networking Tutorial for System Admins w/Subtitles</a></li>
 <li><a href="https://www.youtube.com/watch?v=51tX4XFNGqY&amp;list=PLD77wXPYdVJIf2OaienlLgLzibW_LrKx2">Linux Networking Basics</a></li>
 <li><a href="http://www.thegeekstuff.com/2010/08/tcpdump-command-examples/">Packet Analyzer: 15 TCPDUMP Command Examples</a></li>
 </ul></div>
