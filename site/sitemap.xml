@@ -3,52 +3,16 @@
 
     
     <url>
-     <loc>None/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/data_algorithm/</loc>
-     <lastmod>2016-07-21</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-        
-    <url>
-     <loc>None/database/</loc>
-     <lastmod>2016-07-21</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/db_sql/</loc>
-     <lastmod>2016-07-21</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/db_mysql/</loc>
-     <lastmod>2016-07-21</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/db_redis/</loc>
-     <lastmod>2016-07-21</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-    <url>
-     <loc>None/networking/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/data_algorithm/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -56,20 +20,56 @@
     
         
     <url>
-     <loc>None/oop/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/database/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/oop_uml/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/db_sql/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/oop_designpattern/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/db_mysql/</loc>
+     <lastmod>2017-07-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/db_redis/</loc>
+     <lastmod>2017-07-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>/networking/</loc>
+     <lastmod>2017-07-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>/oop/</loc>
+     <lastmod>2017-07-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/oop_uml/</loc>
+     <lastmod>2017-07-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/oop_designpattern/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -78,32 +78,32 @@
     
         
     <url>
-     <loc>None/os/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/os/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/os_linux/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/os_linux/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/os_centos/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/os_centos/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/os_ubuntu/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/os_ubuntu/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/os_windows/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/os_windows/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -111,24 +111,24 @@
 
     
     <url>
-     <loc>None/ux/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/ux/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/software_architecture/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/software_architecture/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
     <url>
-     <loc>None/licenses/</loc>
-     <lastmod>2016-07-21</lastmod>
+     <loc>/licenses/</loc>
+     <lastmod>2017-07-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
