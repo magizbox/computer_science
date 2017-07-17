@@ -52,40 +52,6 @@
     
 
     
-        
-    <url>
-     <loc>/os/</loc>
-     <lastmod>2017-07-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/os_linux/</loc>
-     <lastmod>2017-07-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/os_centos/</loc>
-     <lastmod>2017-07-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/os_ubuntu/</loc>
-     <lastmod>2017-07-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/os_windows/</loc>
-     <lastmod>2017-07-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
     <url>
      <loc>/ux/</loc>
      <lastmod>2017-07-17</lastmod>
